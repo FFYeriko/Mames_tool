@@ -1,0 +1,16 @@
+{
+  "name": "obs-controller",
+  "version": "1.0.0",
+  "bin": "index.js",
+  "pkg": {
+    "assets": [],
+    "targets": ["node18-win-x64"],
+    "icon": "favicon.ico"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "figlet": "^1.8.1",
+    "obs-websocket-js": "^5.0.6"
+  }
+}
